@@ -16,4 +16,4 @@ Computer.prototype.aboutpc = function () {
 
 const dell = new Computer("Dell", "Dkmk", "4GB", "128GB", "SSD");
 
-console.log(dell);
+console.log(dell.__proto__);
